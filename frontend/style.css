@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.dashboard {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+.metrics-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+.card {
+    background-color: #162447;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.progress-bar {
+    background-color: #1f4068;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.progress {
+    background-color: #e43f5a;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
