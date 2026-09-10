@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32047363/README.md)
 # Real-Time System Metrics Dashboard
 
 A full-stack web application that monitors and displays live server metrics (**CPU**, **RAM**, and **Disk** usage) via a FastAPI backend and a lightweight vanilla-JS frontend.
